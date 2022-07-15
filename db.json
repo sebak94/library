@@ -1,0 +1,76 @@
+{
+	"books": [
+		{
+			"id": 1,
+			"title": "Clean Code",
+			"author": {
+				"id": 1,
+				"name": "Uncle Bob"
+			}
+		},
+		{
+			"id": 2,
+			"title": "Clean Architecture",
+			"author": {
+				"id": 1,
+				"name": "Uncle Bob"
+			}
+		},
+		{
+			"id": 3,
+			"title": "Design Patterns",
+			"author": {
+				"id": 2,
+				"name": "Erich Gamma"
+			}
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"email": "chano@amalgama.co",
+			"nickname": "Chano",
+			"favorite_books": [
+				{
+					"id": 1,
+					"title": "Clean Code",
+					"author": {
+						"id": 1,
+						"name": "Uncle Bob"
+					}
+				},
+				{
+					"id": 2,
+					"title": "Clean Architecture",
+					"author": {
+						"id": 1,
+						"name": "Uncle Bob"
+					}
+				}
+			]
+		},
+		{
+			"id": 2,
+			"email": "sebastian@amalgama.co",
+			"nickname": "Sebiche",
+			"favorite_books": [
+				{
+					"id": 1,
+					"title": "Clean Code",
+					"author": {
+						"id": 1,
+						"name": "Uncle Bob"
+					}
+				},
+				{
+					"id": 3,
+					"title": "Design Patterns",
+					"author": {
+						"id": 2,
+						"name": "Erich Gamma"
+					}
+				}
+			]
+		}
+	]
+}
